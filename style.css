@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  display: flex;               /* ✅ This makes centering work */
+  justify-content: center;     /* horizontally center */
+  align-items: center;         /* vertically center */
+  height: 100vh;               /* full viewport height */
+  background-color: rgb(133, 131, 131);
+}
+.timer{
+
+  text-align: center;
+
+}
+.timerDisplay{
+    padding: 50px;
+    background-color: rgb(36, 35, 35);
+    color: white;
+    font-weight: 700;
+    letter-spacing: 5px;
+    border: 2px solid rgb(0, 0, 255);
+    font-size: 25px;
+
+    
+    text-align: center;
+} 
+.buttons{
+    padding: 20px;
+    font-size: 20px;
+
+}
+#startBtn,
+#stopBtn,
+#resetBtn
+{
+    padding: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3sec ease;
+}
+#startBtn:hover,
+#stopBtn:hover,
+#resetBtn:hover{
+    border: 2px solid rgb(218, 187, 13);
+    color: blue;
+}
