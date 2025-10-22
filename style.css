@@ -5,10 +5,10 @@
 }
 
 body {
-  display: flex;               /* ✅ This makes centering work */
-  justify-content: center;     /* horizontally center */
-  align-items: center;         /* vertically center */
-  height: 100vh;               /* full viewport height */
+  display: flex;              
+  justify-content: center;    
+  align-items: center;        
+  height: 100vh;               
   background-color: rgb(133, 131, 131);
 }
 .timer{
